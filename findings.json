@@ -1,0 +1,25 @@
+{
+  "jumlah_alamat": 234,
+  "total_token_kata": 1550,
+  "token_per_field": {
+    "address": 816,
+    "city": 266,
+    "state": 234,
+    "zip": 234
+  },
+  "kota_multi_kata": 32,
+  "contoh_kota_multi_kata": [
+    "Alexander City",
+    "Bay Minette",
+    "Center Point",
+    "Central Square",
+    "East Falmouth",
+    "East Greenbush",
+    "East Meadow",
+    "East Syracuse"
+  ],
+  "akurasi_crf_tercatat": 0.9684542586750788,
+  "akurasi_bert_tercatat": 0.9918533604887984,
+  "perbaikan_task_1": "kota multi kata dipecah per kata, satu label per kata",
+  "perbaikan_task_5": "akurasi memakai mask labels != -100; versi lama yang memfilter dulu memberi 0.7067 yang salah"
+}
